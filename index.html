@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eFootball Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">eFootball <span>Market</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">መነሻ ገጽ</a></li>
+                <li><a href="#coins">Coins መግዣ</a></li>
+                <li><a href="#accounts">የሚሸጡ አካውንቶች</a></li>
+                <li><a href="#contact">ግንኙነት</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>eFootball Coins እና አካውንቶችን በቀላሉ ይግዙ!</h1>
+        <p>ታማኝ፣ ፈጣን እና አስተማማኝ የ eFootball ገበያ።</p>
+        <a href="#coins" class="btn">አሁኑኑ ይግዙ</a>
+    </section>
+
+    <!-- Coins Section -->
+    <section id="coins" class="products">
+        <h2>eFootball Coins Top-Up</h2>
+        <div class="product-grid">
+            <div class="card">
+                <h3>130 Coins</h3>
+                <p class="price">150 ETB</p>
+                <button onclick="buyCoins('130 Coins')">ይግዙ</button>
+            </div>
+            <div class="card">
+                <h3>1,050 Coins</h3>
+                <p class="price">1,100 ETB</p>
+                <button onclick="buyCoins('1050 Coins')">ይግዙ</button>
+            </div>
+            <div class="card">
+                <h3>2,130 Coins</h3>
+                <p class="price">2,100 ETB</p>
+                <button onclick="buyCoins('2130 Coins')">ይግዙ</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accounts Section -->
+    <section id="accounts" class="products">
+        <h2>የሚሸጡ አካውንቶች</h2>
+        <div class="product-grid">
+            <div class="card">
+                <h3>Epic Squad (Rating 3100+)</h3>
+                <p>Mess, Ronaldo, Cruyff ያካተተ</p>
+                <p class="price">3,500 ETB</p>
+                <button onclick="buyAccount('Epic Squad')">ዝርዝር ይመልከቱ</button>
+            </div>
+            <div class="card">
+                <h3>Show Time Squad</h3>
+                <p>ከፍተኛ ጥራት ያላቸው ተጫዋቾች</p>
+                <p class="price">2,500 ETB</p>
+                <button onclick="buyAccount('Show Time Squad')">ዝርዝር ይመልከቱ</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 eFootball Market. መብቱ በህግ የተጠበቀ ነው::</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
